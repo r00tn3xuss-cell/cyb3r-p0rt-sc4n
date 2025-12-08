@@ -9,6 +9,7 @@ print(r"""
   |  __/ (_) | |  |   <  ___) | (_| (_| | |   
   |_|   \___/|_|  |_|\_\|____/ \___\__,_|_|   
         Simple Python Port Scanner
+              made by r00tn3xuss
 """)
 
 target = input("Enter target IP/Domain: ").strip()
@@ -21,6 +22,7 @@ def scan(port):
         s.settimeout(0.3)
         s.connect((target, port))
         print(f"[+] Port {port} is OPEN")
+        s.close()
     except:
         pass
 
