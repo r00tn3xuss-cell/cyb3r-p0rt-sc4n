@@ -20,10 +20,16 @@ Scans ports **1–1024** and prints all open ports with clean output.
 ```bash
 git clone https://github.com/r00tn3xuss-cell/cyb3r-p0rt-sc4n.git
 
+```
+
+### **2️⃣ Navigate into the folder**
 ```bash
 cd cyb3r-p0rt-sc4n
+```
 
+### **3️⃣ Run the scanner**
 ```bash
 python3 scanner.py
+
 
 
