@@ -11,4 +11,6 @@ Scans ports 1–1024 and prints all open ports.
 
 ## 📦 How to Run
 ```bash
+gitclone https://github.com/r00tn3xuss-cell/cyb3r-p0rt-sc4n.git
 python3 scanner.py
+
